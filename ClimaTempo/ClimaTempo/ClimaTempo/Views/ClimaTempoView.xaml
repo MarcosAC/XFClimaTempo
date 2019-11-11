@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClimaTempo.Views.ClimaTempoView">
+
+    <NavigationPage.TitleView>
+        <Label Text="Clima Tempo" FontSize="Medium" TextColor="White" />
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout Padding="10" >
+            <Label Text="Digite o nome da cidade:" FontSize="Medium" />
+            <Entry Placeholder="Cidade" FontSize="Medium" Margin="0,20,0,0"/>
+
+            <StackLayout Margin="0,120,0,0">
+                <Label Text="Osasco" FontSize="Large" FontAttributes="Bold" />
+                <Label Text="Temp: 21º" FontSize="Medium" Margin="20,0,0,0" />
+                <Label Text="Humidade: 77%" FontSize="Medium" Margin="20,0,0,0" />
+                <Label Text="Min: 21º" FontSize="Medium" Margin="20,0,0,0" />
+                <Label Text="Max: 30º" FontSize="Medium" Margin="20,0,0,0" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

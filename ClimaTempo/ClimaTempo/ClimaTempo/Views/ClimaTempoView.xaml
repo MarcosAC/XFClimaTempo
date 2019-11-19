@@ -11,6 +11,8 @@
             <Label Text="Digite o nome da cidade:" FontSize="Medium" />
             <Entry Placeholder="Cidade" FontSize="Medium" Margin="0,20,0,0"/>
 
+            <Button Text="Pesquisar" Clicked="OnClickPesquisar" />
+
             <StackLayout Margin="0,120,0,0">
                 <Label Text="Osasco" FontSize="Large" FontAttributes="Bold" />
                 <Label Text="Temp: 21º" FontSize="Medium" Margin="20,0,0,0" />

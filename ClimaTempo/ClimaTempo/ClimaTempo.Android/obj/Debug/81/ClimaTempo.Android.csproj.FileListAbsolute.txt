@@ -102,4 +102,6 @@ C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo.Android\obj\Debug\81\and
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\bin\Debug\netstandard2.0\ClimaTempo.dll
+C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo.Android\bin\Debug\ClimaTempo.dll.mdb
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo.Android\obj\Debug\81\linksrc\ClimaTempo.dll.mdb

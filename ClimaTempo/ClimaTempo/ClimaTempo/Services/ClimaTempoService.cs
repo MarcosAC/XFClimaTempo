@@ -19,6 +19,7 @@ namespace ClimaTempo.Services
         {
             try
             {
+                string url = $"{Constantes.ApiBaseUrl}{cidade}{Constantes.CodigoPais}&appid={Constantes.AppId}&units=metric";
                 HttpResponseMessage response = await _HttpClient.GetAsync($"{Constantes.ApiBaseUrl}{cidade}{Constantes.CodigoPais}&appid={Constantes.AppId}&units=metric");
 
                 if (!response.IsSuccessStatusCode)

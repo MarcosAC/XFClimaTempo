@@ -1,12 +1,12 @@
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\bin\Debug\netstandard2.0\ClimaTempo.deps.json
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\bin\Debug\netstandard2.0\ClimaTempo.dll
-C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\ClimaTempo.csprojAssemblyReference.cache
+C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\bin\Debug\netstandard2.0\ClimaTempo.pdb
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\Views\ClimaTempoView.xaml.g.cs
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\ClimaTempo.csproj.CoreCompileInputs.cache
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\ClimaTempo.AssemblyInfoInputs.cache
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\ClimaTempo.AssemblyInfo.cs
-C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\bin\Debug\netstandard2.0\ClimaTempo.pdb
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\ClimaTempo.dll
 C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\ClimaTempo.pdb
+C:\Projetos\ClimaTempo\ClimaTempo\ClimaTempo\ClimaTempo\obj\Debug\netstandard2.0\ClimaTempo.csprojAssemblyReference.cache

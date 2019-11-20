@@ -1,6 +1,5 @@
 ﻿using ClimaTempo.Services;
 using System;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,11 +13,22 @@ namespace ClimaTempo.Views
 			InitializeComponent ();
 		}
 
-        public ClimaTempoService PegarTempo = new ClimaTempoService();
+        public ClimaTempoService ClimaTempo = new ClimaTempoService();
 
-        private async void OnClickPesquisar(object sender, EventArgs e)
+        private void OnClickPesquisar(object sender, EventArgs e)
         {
-            await PegarTempo.ObterClima("Osasco");
+            PegarDadosClima(txtPesquisa.Text);
+        }
+
+        private async void PegarDadosClima(string cidade)
+        {
+            var dadosClima = await ClimaTempo.ObterClima(cidade);
+
+            txtCidade.Text = dadosClima.NomeCidade;
+            txtTemp.Text = dadosClima.Clima.Temperatura;
+            txtMin.Text = dadosClima.Clima.TemperaturaMaxima;
+            txtMax.Text = dadosClima.Clima.TemperaturaMinina;
+            txtHumidade.Text = dadosClima.Clima.Humidade;
         }
     }
 }

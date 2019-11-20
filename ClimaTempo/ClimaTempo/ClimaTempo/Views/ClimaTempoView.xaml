@@ -9,17 +9,102 @@
     <ContentPage.Content>
         <StackLayout Padding="10" >
             <Label Text="Digite o nome da cidade:" FontSize="Medium" />
-            <Entry Placeholder="Cidade" FontSize="Medium" Margin="0,20,0,0"/>
+            <Entry x:Name="txtPesquisa" 
+                   Placeholder="Cidade" 
+                   FontSize="Medium" 
+                   Margin="0,20,0,0" />
 
             <Button Text="Pesquisar" Clicked="OnClickPesquisar" />
 
-            <StackLayout Margin="0,120,0,0">
-                <Label Text="Osasco" FontSize="Large" FontAttributes="Bold" />
-                <Label Text="Temp: 21º" FontSize="Medium" Margin="20,0,0,0" />
-                <Label Text="Humidade: 77%" FontSize="Medium" Margin="20,0,0,0" />
-                <Label Text="Min: 21º" FontSize="Medium" Margin="20,0,0,0" />
-                <Label Text="Max: 30º" FontSize="Medium" Margin="20,0,0,0" />
-            </StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="txtCidade" 
+                       FontSize="Large" 
+                       FontAttributes="Bold" 
+                       Grid.Row="0" 
+                       Grid.Column="0" />                
+
+                <Label Text="Temperatura" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" 
+                       Grid.Row="1"
+                       Grid.Column="0"/>
+
+                <Label x:Name="txtTemp" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0"                       
+                       Grid.Row="1"
+                       Grid.Column="1" />
+
+                <Label Text="Humidade" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" 
+                       Grid.Row="2"
+                       Grid.Column="0" />
+
+                <Label x:Name="txtHumidade"
+                       FontSize="Medium"
+                       Margin="20,0,0,0"
+                       Grid.Row="2"
+                       Grid.Column="1" />
+
+                <Label Text="Mínima" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" 
+                       Grid.Row="3"
+                       Grid.Column="0" />
+                
+                <Label x:Name="txtMin" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0"
+                       Grid.Row="3"
+                       Grid.Column="1" />
+
+                <Label Text="Máxima" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" 
+                       Grid.Row="4"
+                       Grid.Column="0" />
+                
+                <Label x:Name="txtMax"
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" 
+                       Grid.Row="4"
+                       Grid.Column="1" />
+            </Grid>
+            <!--<StackLayout Margin="0,120,0,0">
+                <Label x:Name="txtCidade" 
+                       FontSize="Large" 
+                       FontAttributes="Bold" />
+                
+                <Label x:Name="txtTemp" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" />
+                
+                <Label x:Name="txtHumidade"
+                       FontSize="Medium"
+                       Margin="20,0,0,0" />
+                
+                <Label x:Name="txtMin" 
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" />
+                
+                <Label x:Name="txtMax"
+                       FontSize="Medium" 
+                       Margin="20,0,0,0" />
+            </StackLayout>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

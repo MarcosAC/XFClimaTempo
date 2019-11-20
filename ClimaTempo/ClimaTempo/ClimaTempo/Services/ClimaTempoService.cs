@@ -15,7 +15,7 @@ namespace ClimaTempo.Services
             _HttpClient = new HttpClient();
         }
 
-        public async Task<Clima> ObterClima(string cidade)
+        public async Task<DadosClima> ObterClima(string cidade)
         {
             try
             {
@@ -27,7 +27,14 @@ namespace ClimaTempo.Services
 
                 var conteudoResponse = await response.Content.ReadAsStringAsync();
 
-                return JsonConvert.DeserializeObject<Clima>(conteudoResponse);
+                var responseClima =  JsonConvert.DeserializeObject<DadosClima>(conteudoResponse);
+
+                //var dadosClima = new Clima
+                //{
+                //    NomeCidade = conteudoResponse.
+                //}
+
+                return responseClima;
             }
             catch (Exception ex)
             {

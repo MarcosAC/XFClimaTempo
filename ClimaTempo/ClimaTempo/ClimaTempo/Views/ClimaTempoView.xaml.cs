@@ -25,10 +25,10 @@ namespace ClimaTempo.Views
             var dadosClima = await ClimaTempo.ObterClima(cidade);
 
             txtCidade.Text = dadosClima.NomeCidade;
-            txtTemp.Text = dadosClima.Clima.Temperatura;
-            txtMin.Text = dadosClima.Clima.TemperaturaMaxima;
-            txtMax.Text = dadosClima.Clima.TemperaturaMinina;
-            txtHumidade.Text = dadosClima.Clima.Humidade;
+            txtTemp.Text = $"{dadosClima.Clima.Temperatura}° C";
+            txtMin.Text = $"{dadosClima.Clima.TemperaturaMaxima}° C";
+            txtMax.Text = $"{dadosClima.Clima.TemperaturaMinina}° C";
+            txtHumidade.Text = $"{dadosClima.Clima.Humidade} %";
         }
     }
 }

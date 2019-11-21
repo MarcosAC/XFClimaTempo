@@ -29,11 +29,6 @@ namespace ClimaTempo.Services
 
                 var responseClima =  JsonConvert.DeserializeObject<DadosClima>(conteudoResponse);
 
-                //var dadosClima = new Clima
-                //{
-                //    NomeCidade = conteudoResponse.
-                //}
-
                 return responseClima;
             }
             catch (Exception ex)
